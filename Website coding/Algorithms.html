@@ -1,0 +1,159 @@
+<html>
+
+<link rel="stylesheet" type="text/css" href="Style sheets/style.css" media="screen" />
+
+	<head>
+		<title>Algorithm Issues</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	</head>
+<body style="background-color:green;">
+
+	<div class="w3-container w3-green">
+		<h1 style="text-align:center;text-decoration:underline" >Algorithms</h1> 
+		<p style="text-align:center">Let's learn about algorithm issues</p> 
+	</div>
+	
+	<div class="w3-row-padding", style="color:white">
+		<div class="w3-third">
+			<h2>What are algorithms?</h2>
+			<p>In mathematics and computer science, an algorithm is a sequence of mathematical instructions,
+			typically used to solve specific problems.</p>
+			<img width=90%, src="Images/binarySeacrh.jpg", alt="flow diagram">
+			<p>Algorithms are created to allow users to tell a computer how to solve a problem.</p>
+			<p>They can be drawn as flowcharts/diagrams.</p>
+			<video width=100% height="240" autoplay muted>
+				<source src="Images/bubble.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+		</div>
+		<div class="w3-third">
+			<h2>Where are they often used?</h2>
+			<h3>Algorithm Use Cases:</h3>
+			<ul>
+				<li>
+					<h4>Search algorithms.</h4> 
+					<p>Designed to retrieve information stored within some data structure, E.g.</p>
+					<ol>
+						<li>
+							<h4>Binary search</h4> 
+							<p>Looks through a dataset in halves until desired 'value' is found or not, quite efficient as data is 'cut down' fast and is often easy/easier to implement
+							than other algorithms.</p>
+						</li>
+						<li>
+							<h4>Linear seacrh</h4> 
+							<p>Looks through a dataset in order until desired 'value' is found or not.</p>
+						</li>
+					</ol>
+				</li>
+				<li>
+					<h4>Sorting algorithms.</h4> 
+					<p>They rearrange the elements of a dataset in a specified order, like quicksort and mergesort, which are efficient for sorting large datasets. E.g.</p>
+					<ol>
+						<li>
+							<h4>Bubble sort</h4> 
+							<p>Compares to values at a time, swapping the values based on size, larger values often 'float to one end' of the list.</p>
+						</li>
+						<li>
+							<h4>Insertion sort</h4> 
+							<p>An expansion upon bubble sort, upon very swap, 'back swaps' are taken to place the value in the correct position at the start of the list,
+							this prevents repeats of entire lists due to one value often at the end being left for the next pass.</p>
+						</li>
+						
+						<li>
+							<h4>Quicksort</h4>
+							<video id="vid" width=100% height="240" controls>
+								<source src="Images/quicksort.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+							</video>
+							<form>
+								<button type="button" onclick="showHide()">Show/Hide</button> 
+							</form>
+							<a href="https://www.youtube.com/watch?v=Hoixgm4-P4M" >
+								<div class="w3-container w3-hover-red">
+									<p>Go direct</p>
+								</div>
+							</a>
+						</li>
+					</ol>
+				</li>
+				<li>
+					<h4>Graph algorithms.</h4> 
+					<p>These deal with graphs, which are mathematical structures used to represent pairwise relations between objects.</p>
+				</li>
+			</ul>
+		</div>
+		<div class="w3-third">
+			<h2>How can they be done wrong?</h2>
+			<p>The model is usually built from data about past decisions and some of the factors used to make them.
+			The algorithm can then automate decision-making, so large amounts of data can be processed efficiently in a short period of time.
+			Machine learning algorithms will improve their models as they process more and more data.
+			It is in this data used to build and train algorithms that many of the problems lie.</p>
+			<p>First, algorithms typically need relatively large data sets to work well. (Using decision based models as an example)
+			So, for example, A-levels could be graded and evaluated by algorithms. However,a key issue is that data about the past doesn’t necessarily help you make adequate decisions about the present or the future.
+			It blocks any chances of change and development – like when a school improves its teaching or one year group of students performs better than their peers in previous years.</p>
+			<p>This puts a high amount of pressure and power upon this algorithm; in theory, anyone in control of it or its data could change this,
+			and therefore dictate who gets what. Furthermore, all data holds biases that an algorithm can end up replicating. 
+			For example, the A-level algorithm adjusted results to try to replicate the previous overall achievements of different ethnic groups,
+			which are likely to reflect racial inequality.</p>
+			
+			<h3>What are the consequences of this?</h3>
+			<ul>
+				<li>
+					<h4>Risk of algorithmic bias on diversity</h4>
+					<p>Algorithmic bias is the phenomenon by which an algorithm may perform particularly poorly on a population subgroup
+					if it was not exposed to that subgroup's data during algorithm development and training.
+					Concerns have also been raised about how AI and machine learning may be exacerbating healthcare inequalities by underperforming in marginalised patient groups
+					posing new risks for medical science being developed as well as future treatment effectiveness.</p>
+				</li>
+				<li>
+					<p>Algorithms are often elegant and incredibly useful tools used to accomplish tasks.
+					They are mostly invisible aids, augmenting human lives in increasingly incredible ways.
+					However, sometimes the application of algorithms created with good intentions leads to unintended consequences.</p>
+					<h4>Some news items tie to these concerns:</h4>
+					<ol>
+						<li>
+							<p>The British pound dropped 6.1% in value in seconds on Oct. 7, 2016, partly because of currency trades triggered by algorithms.</p>
+						</li>
+						<li>
+							<p>Microsoft engineers created a Twitter bot named “Tay” this past spring in an attempt to chat with Millennials by responding to their prompts,
+							but within hours it was spouting racist, sexist, Holocaust-denying tweets.</p>
+						</li>
+						<li>
+							<p>Cathy O’Neil, author of Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy,
+							pointed out that predictive analytics based on algorithms tend to punish the poor,
+							using algorithmic hiring practices as an example.</p>
+						</li>
+						<li>
+							<p>Well-intentioned algorithms can be sabotaged by bad actors.
+							An internet slowdown swept the East Coast of the U.S. on Oct. 21, 2016, after hackers bombarded Dyn DNS, an internet traffic handler,
+							with information that overloaded its circuits,
+							ushering in a new era of internet attacks powered by internet-connected devices.</p>
+						</li>
+					</ol>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="w3-container w3-green">
+		<a href="Main page.html" >
+			<div class="w3-container w3-hover-red">
+				<p>Return to main page</p>
+			</div>
+		</a>
+	</div>
+	
+<script>
+	function showHide() { 
+
+		var x = document.getElementById("vid"); 
+		if(x.style.display == 'block') {x.style.display = 'none';} 
+		else {x.style.display = 'block';}
+		
+	}
+</script>
+	
+</body>
+
+</html>
